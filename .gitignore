@@ -1,6 +1,7 @@
 *.gz
 *.zip
 *.db
+assets
 
 npm-debug.log
 node_modules
