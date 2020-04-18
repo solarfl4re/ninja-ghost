@@ -13,7 +13,6 @@ body {
   font-family: 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.15em;
   line-height: 1.6;
-  max-width: 640px;
 }
 
 figure {
@@ -62,7 +61,13 @@ ul.nav > li {
   margin-right: 0.6em;
 }
 
+.postHeader {
+  margin-bottom: -.16em;
+}
+
 .postDate {
+  color: #888;
+  margin-top: 0;
 }
 
 .mastheadBackground {
@@ -73,6 +78,7 @@ ul.nav > li {
 
 .masthead {
   color: #fe9c5d;
+  height: 11.2em;
 }
 
 .mastheadTitle {
@@ -91,5 +97,7 @@ ul.nav > li {
 
 #container {
   width: 90%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
 }

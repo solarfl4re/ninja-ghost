@@ -10,13 +10,9 @@ into the {body} of the default.hbs template --}}
 
     <header class="post-full-header">
 
-      <h1 class="post-full-title">{{title}}</h1>
+      <h1 class="postHeader">{{title}}</h1>
 
-          <section class="byline">
-            <div class="byline-meta-content">
-              <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
-            </div>
-          </section>
+      <p class="postDate"><time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time></p>
 
     </header>
 
