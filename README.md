@@ -1,6 +1,6 @@
 # ninja-ghost
 
-Minimal theme for Ghost CMS based on the Ghost Starter theme.
+Minimal theme for Ghost CMS based on the Ghost Starter theme. Inspired by [Marco Arment's site](https://marco.org).
 
 **Features**
 - Using Webpack
